@@ -1,8 +1,10 @@
 {
   "name": "stringymajigy",
   "version": "0.1.0",
+  "description": "stringymajigy is a simple react app that simultaneously displays the output of calling the ten string-related functions defined in @mikeygough/stringlib",
   "private": true,
   "dependencies": {
+    "@mikeygough/stringlib": "^1.0.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -11,6 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
